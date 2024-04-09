@@ -43,9 +43,9 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
        # If no repo information is specified, Flathub will be used by default
-      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      # repo-name: flathub
-      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         # - org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
         # - net.davidotek.pupgui2
@@ -69,5 +69,9 @@ modules:
       - org.srb2.SRB2
       - org.srb2.SRB2Kart
       - re.chiaki.Chiaki
+      - org.kde.haruna
+      - org.openmw.OpenMW
+      - io.mrarm.mcpelauncher
+      - com.github.mtkennerly.ludusavi
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
