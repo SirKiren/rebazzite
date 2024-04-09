@@ -95,7 +95,7 @@ modules:
         # - org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
         # - net.davidotek.pupgui2
         # - com.valvesoftware.Steam
-        - com.vscodium.codium 
+        # - com.vscodium.codium 
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
