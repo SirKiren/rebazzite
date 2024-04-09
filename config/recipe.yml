@@ -78,5 +78,10 @@ modules:
         - org.prismlauncher.PrismLauncher
         - org.kde.okular
         - io.itch.itch
+        - org.kde.gwenview
+        - com.github.k4zmu2a.spacecadetpinball
+        - com.github.zocker_160.SyncThingy
+        - dev.goats.xivlauncher
+        - io.github.unknownskl.greenlight
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
