@@ -23,6 +23,7 @@ modules:
       # - micro
       # - starship
       - corectrl
+      - virt-manager
       # - kcalc
     remove:
       # example: removing firefox (in favor of the flatpak)
@@ -36,6 +37,7 @@ modules:
       - waydroid-selinux
       - xwaylandvideobridge
       - plasma-discover-notifier
+      - vi
       # - mumble
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
