@@ -22,7 +22,7 @@ modules:
     install:
       # - micro
       # - starship
-      # - corectrl
+      - corectrl
       # - kcalc
     remove:
       # example: removing firefox (in favor of the flatpak)
@@ -34,6 +34,8 @@ modules:
       - ptyxis
       - waydroid
       - waydroid-selinux
+      - xwaylandvideobridge
+      - plasma-discover-notifier
       # - mumble
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -46,7 +48,7 @@ modules:
         # - org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
         # - net.davidotek.pupgui2
         # - com.valvesoftware.Steam
-        # - com.vscodium.codium 
+        - com.vscodium.codium 
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
@@ -59,5 +61,11 @@ modules:
       - com.discordapp.Discord
       - com.teamspeak.TeamSpeak
       - net.supertuxkart.SuperTuxKart
+      - org.qbittorrent.qBittorrent
+      - org.supertuxproject.SuperTux
+      - org.videolan.VLC
+      - org.srb2.SRB2
+      - org.srb2.SRB2Kart
+      - re.chiaki.Chiaki
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
