@@ -38,6 +38,8 @@ modules:
       - xwaylandvideobridge
       - plasma-discover-notifier
       - vim-minimal
+      - filelight
+      - discover-overlay
       # - mumble
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
