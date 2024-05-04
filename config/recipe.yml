@@ -24,6 +24,8 @@ modules:
       # - starship
       - corectrl
       - virt-manager
+      - firefox
+      - firefox-langpacks
       # - kcalc
     remove:
       # example: removing firefox (in favor of the flatpak)
